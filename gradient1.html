@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            display: inline-block;
+        }
+        .linear{
+            background:linear-gradient(to bottom,green,blue,purple);
+        }
+        .radial{
+            background: radial-gradient(circle,green,yellow,violet,orange);
+        }
+        .conic{
+            background: conic-gradient(green,red);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box linear"></div>
+    <div class="box radial"></div>
+    <div class="box conic"></div>
+</body>
+</html>
